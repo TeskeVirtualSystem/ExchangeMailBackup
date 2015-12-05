@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange Manager Tools", "Exchange Manager Tools\Exchange Manager Tools.csproj", "{DC3106E6-F55D-4C6A-81FF-BD1E80A6BB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange Manager Configuration", "Exchange Manager Configuration\Exchange Manager Configuration.csproj", "{04A6D660-A716-43FB-93BD-7BD855DFC889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupService", "BackupService\BackupService.csproj", "{C23C8474-92DE-48AD-8417-713C955F0FD0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BackupManagerInstaller", "BackupManagerInstaller\BackupManagerInstaller.vdproj", "{E7658387-C194-4BA1-82E5-D8699A2D514C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC3106E6-F55D-4C6A-81FF-BD1E80A6BB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3106E6-F55D-4C6A-81FF-BD1E80A6BB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3106E6-F55D-4C6A-81FF-BD1E80A6BB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3106E6-F55D-4C6A-81FF-BD1E80A6BB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A6D660-A716-43FB-93BD-7BD855DFC889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A6D660-A716-43FB-93BD-7BD855DFC889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A6D660-A716-43FB-93BD-7BD855DFC889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A6D660-A716-43FB-93BD-7BD855DFC889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23C8474-92DE-48AD-8417-713C955F0FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23C8474-92DE-48AD-8417-713C955F0FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23C8474-92DE-48AD-8417-713C955F0FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23C8474-92DE-48AD-8417-713C955F0FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7658387-C194-4BA1-82E5-D8699A2D514C}.Debug|Any CPU.ActiveCfg = Debug
+		{E7658387-C194-4BA1-82E5-D8699A2D514C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
