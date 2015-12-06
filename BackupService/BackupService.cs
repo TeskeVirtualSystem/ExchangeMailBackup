@@ -74,6 +74,13 @@ namespace BackupService
             DateTime now = DateTime.Now;
             List<ScheduledAction> Schedules = dbman.GetScheduledActions();
             mainLogger.WriteEntry("Scheduled Actions: "+Schedules.Count);
+
+            // Clean Requests
+            Collection<Command> cmd = ExchangeUtils.CleanDoneRequests();
+            PSBGWorker exportWorker = new PSBGWorker(ServerUser, Utils.DecryptPassword(EncServerPass), ServerIP, cmd, 0);
+            exportWorker.InitTask();
+
+            // Do Schedules
             foreach (ScheduledAction Schedule in Schedules)
             {
                 if (Schedule.ScheduleTime.isOnDate(now))
